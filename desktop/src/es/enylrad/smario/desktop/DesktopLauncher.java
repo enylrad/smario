@@ -2,11 +2,11 @@ package es.enylrad.smario.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import es.enylrad.smario.MarioBrosMain;
+import es.enylrad.smario.MarioBrossMain;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new MarioBrosMain(), config);
+		new LwjglApplication(new MarioBrossMain(), config);
 	}
 }
